@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: conversao-pod
+  labels:
+    app: conversao-web
+spec:
+  containers:
+  - name: conversao-web
+    image: leandrojbraga/kubedev-desafio1:v1.0
+    ports:
+      - containerPort: 8080
