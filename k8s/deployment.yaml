@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: conversao-web
-        image: leandrojbraga/kubedev-desafio1:latest
+        image: leandrojbraga/kubedev-desafio3-conversao:v1
         ports:
           - containerPort: 8080
 
